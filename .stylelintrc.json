@@ -1,0 +1,4 @@
+{
+    "extends": "stylelint-config-standard-scss",
+    "configBasedir": "./node_modules/stylelint-config-standard-scss"
+  }

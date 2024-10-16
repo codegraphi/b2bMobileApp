@@ -1,0 +1,40 @@
+{
+    "expo": {
+        "name": "B2B",
+        "slug": "B2B",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "scheme": "final",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./assets/CodeGraphi.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.skyairey.ReactApp"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.skyairey.ReactApp"
+        },
+        "web": {
+            "bundler": "metro",
+            "output": "static",
+            "favicon": "./assets/favicon.png"
+        },
+        "plugins": ["expo-router"],
+        "experiments": {
+            "typedRoutes": true
+        },
+        "extra": {
+            "eas": {
+                "projectId": "20d208c4-56c7-4cc4-bbed-cb55dcaf7a90"
+            }
+        }
+    }
+}
